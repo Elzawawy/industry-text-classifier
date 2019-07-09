@@ -10,12 +10,12 @@ You can think of the job industry as the category or general field in which you 
 The problem is supervised text classification problem, and our goal is to investigate which supervised machine learning methods are best suited to solve it. Given a new job title that comes in, we want to assign it to one of 4 industry categories. The classifier makes the assumption that each new complaint is assigned to one and only one category. This is multi-class text classification problem.
 
 ## About dataset
-The Dataset that has two variables (Job title & Industry) in a csv format of more than 8,500 samples.
+1. The Dataset that has two variables (Job title & Industry) in a csv format of more than 8,500 samples.
 
-[Click here to view and download the dataset. ](https://drive.google.com/file/d/1W_MO19MlDDUn0qCfxEaVxGKKlKHsFFly/view)
+2. The dataset is imbalanced (Imbalance means that the number of data points available for different classes is different).
+
+3. [Click here to view and download the dataset. ](https://drive.google.com/file/d/1W_MO19MlDDUn0qCfxEaVxGKKlKHsFFly/view)
 It is also available in the Repo if the link fails to connect.
-
-The dataset is imbalanced (Imbalance means that the number of data points available for different classes is different).
 
 ## About Model: My solution to the problem
 When working on a supervised machine learning problem with a given data set, we try
