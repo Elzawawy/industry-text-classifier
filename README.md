@@ -77,6 +77,22 @@ samples only. I also think using a pre-trained word embeddings model like Word2v
 GloVe on my small dataset would further increase my model performance.
 
 
+## About Deploying the Model: Flask API 
+I used Flask API to create a RESTful API for my model. The Model is not recompiled or trained each request, it just predicts upon the given data in request.
+
+### To test and use my Model's RESTful API service:
+
+1. The Server only supoorts GET Requests. 
+
+2. The Server is run by simply running the script from terminal using command (python api_server.py) 
+
+3. After running the server you can direct GET requests to it using Postman or any other tool.
+
+### Example Request/Response:
+
+-Request: "http://127.0.0.1:5000/model/api/JS developer"  (Job title added to request)
+
+-Response: "IT" (Predicted Industry by model)
 
 
 
