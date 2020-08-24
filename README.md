@@ -1,6 +1,8 @@
 # IndustryClassification
 
-<p align='center'><img src="https://miro.medium.com/max/960/0*NjOVwfcpoIYT7FxB"/></p>
+<p align='center'>
+  <img src="https://miro.medium.com/max/960/0*NjOVwfcpoIYT7FxB."/>
+</p>
 
 ## Overview & Background
 
